@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*Custom CSS*/
+
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container h1 {
+  color: #343a40;
+  text-align: center;
+}
+
+.container p {
+  color: #869c98;
+  font-size: 14px;
+}
+
+.form__label {
+  margin-bottom: 10px;
+  color: #343a40;
+  display: block;
+}
+
+.form__input {
+  margin-bottom: 30px;
+}
+
+.form__submit {
+  display: block;
+  padding: 8px 15px;
+  color: #ffffff;
+  background-color: #0a66c2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p.form__text {
+  color: #e03131;
+}
